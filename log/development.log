@@ -1,0 +1,1672 @@
+Started GET "/" for 127.0.0.1 at 2017-06-30 19:45:15 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 143ms (Views: 8.7ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-06-30 22:18:51 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/helo/index"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/helo/index" for 127.0.0.1 at 2017-06-30 22:21:46 +0900
+Processing by HeloController#index as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 147ms (Views: 2.8ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-06-30 22:47:01 +0900
+Processing by HeloController#index as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 148ms (Views: 3.7ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-06-30 22:52:45 +0900
+Processing by HeloController#index as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 143ms (Views: 3.7ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-06-30 23:17:57 +0900
+Processing by HeloController#index as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 114ms (Views: 2.9ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-06-30 23:17:58 +0900
+Processing by HeloController#index as HTML
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/helo/index?msg=Unko" for 127.0.0.1 at 2017-06-30 23:18:16 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"Unko"}
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms)
+
+
+Started GET "/helo/index?msg=Unko" for 127.0.0.1 at 2017-06-30 23:35:45 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"Unko"}
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 123ms (Views: 2.9ms)
+
+
+Started GET "/helo/index?msg=Unko" for 127.0.0.1 at 2017-06-30 23:35:47 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"Unko"}
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-06-30 23:35:49 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering html template
+  Rendered html template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-06-30 23:50:30 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 284ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "    margin": expected ";", was ": 10px 20px"):
+    4:     <title>RailsApp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/helo.scss:7
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4053748521705485694_70196196399740'
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-06-30 23:51:41 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 751ms (Views: 640.1ms)
+
+
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-06-30 23:52:50 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 315ms (Views: 195.6ms)
+
+
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-07-01 00:01:06 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 310ms (Views: 195.8ms)
+
+
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-07-01 00:02:08 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 319ms (Views: 200.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-02 00:55:43 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 148ms (Views: 8.3ms)
+
+
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-07-02 00:55:47 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 211ms (Views: 208.6ms)
+
+
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-07-02 00:56:19 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 49.5ms)
+
+
+Started GET "/helo/index?msg=kakashi" for 127.0.0.1 at 2017-07-02 00:56:20 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"kakashi"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 46.2ms)
+
+
+Started GET "/helo/other" for 127.0.0.1 at 2017-07-02 00:56:25 +0900
+Processing by HeloController#other as HTML
+Redirected to http://localhost:3000/helo/index?msg=from+other+page
+Completed 302 Found in 1ms
+
+
+Started GET "/helo/index?msg=from+other+page" for 127.0.0.1 at 2017-07-02 00:56:25 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 61.5ms)
+
+
+Started GET "/helo/index?msg=from+other+page" for 127.0.0.1 at 2017-07-02 01:28:04 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"msg"=>"from other page"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 336ms (Views: 197.2ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-07-02 01:28:10 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"うんこ"}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.2) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.2) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.2) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.2) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.2) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.2) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.2) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.2) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.2) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.2) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.2) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.2) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-02 01:28:35 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 8ms (Views: 6.0ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-07-02 01:50:21 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"かかし"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 317ms (Views: 202.0ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-07-02 01:53:54 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"フタエノキワミアッー♂"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 50ms (Views: 47.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 14:53:55 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (4.2ms)
+Completed 200 OK in 167ms (Views: 9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-05 14:54:00 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 7ms (Views: 5.0ms)
+
+
+Started GET "/index.html" for 127.0.0.1 at 2017-07-05 14:54:03 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/index.html" for 127.0.0.1 at 2017-07-05 14:54:35 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-07-05 14:54:36 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 10ms (Views: 7.8ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-07-05 14:54:36 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 233ms (Views: 230.2ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-07-05 14:54:37 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 58.0ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-07-05 14:54:42 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"345"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 29ms (Views: 25.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-07-05 14:54:44 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"345"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 31.4ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-07-05 14:54:46 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"345e"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 30.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-23 14:30:48 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (4.4ms)
+Completed 200 OK in 221ms (Views: 10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-23 14:32:28 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 181ms (Views: 8.5ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 14:32:31 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 241ms (Views: 237.8ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 14:32:54 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"フタエノキワミ、アッー♂"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 42.4ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 14:32:55 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"フタエノキワミ、アッー♂"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 28.7ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 14:32:58 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"input1"=>"フタエノキワミ、アッー"}
+Can't verify CSRF token authenticity.
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 42.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-23 14:55:27 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (4.2ms)
+Completed 200 OK in 212ms (Views: 9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-23 14:55:31 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 7ms (Views: 5.3ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 14:55:32 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/helo/index.html.erb:6: syntax error, unexpected keyword_end
+ze;@output_buffer.append=( end );
+                              ^
+/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/helo/index.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/helo/index.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/helo/index.html.erb:6: syntax error, unexpected keyword_end
+app/views/helo/index.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/helo/index.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 14:55:34 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/helo/index.html.erb:6: syntax error, unexpected keyword_end
+ze;@output_buffer.append=( end );
+                              ^
+/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/helo/index.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/helo/index.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/helo/index.html.erb:6: syntax error, unexpected keyword_end
+app/views/helo/index.html.erb:9: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/helo/index.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 14:55:59 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 218ms (Views: 215.3ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 14:56:03 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"az9KargVg4LF3Z7PYUFi1otsBN0FP4rDVkCy38Wuk4Lsj0YBh69O4YsXnX6Rm2uMC5yQ6HDC+lUMILpu9KcaaQ==", "input1"=>"ああああ", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 28.3ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:00:44 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"az9KargVg4LF3Z7PYUFi1otsBN0FP4rDVkCy38Wuk4Lsj0YBh69O4YsXnX6Rm2uMC5yQ6HDC+lUMILpu9KcaaQ==", "input1"=>"ああああ", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 17ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"inde", :controller=>"helo"}):
+    1: <h1><%= @title %></h1>
+    2: <p><%=  @msg %></p>
+    3: <%= form_tag(controller: "helo", action: "inde") do %>
+    4:     <%=  text_field_tag("input1") %>
+    5:     <%= submit_tag("Click") %>
+    6: <% end %>
+  
+app/views/helo/index.html.erb:3:in `_app_views_helo_index_html_erb__2660642649999351904_70157780629080'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:01:10 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"az9KargVg4LF3Z7PYUFi1otsBN0FP4rDVkCy38Wuk4Lsj0YBh69O4YsXnX6Rm2uMC5yQ6HDC+lUMILpu9KcaaQ==", "input1"=>"ああああ", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 36ms (Views: 32.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:19:38 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"az9KargVg4LF3Z7PYUFi1otsBN0FP4rDVkCy38Wuk4Lsj0YBh69O4YsXnX6Rm2uMC5yQ6HDC+lUMILpu9KcaaQ==", "input1"=>"ああああ", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 36ms (Views: 33.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:19:43 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"az9KargVg4LF3Z7PYUFi1otsBN0FP4rDVkCy38Wuk4Lsj0YBh69O4YsXnX6Rm2uMC5yQ6HDC+lUMILpu9KcaaQ==", "input1"=>"ああああ", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 41ms (Views: 38.3ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:19:45 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M5eXBa5evCIVV81GFRmRwKonrDZHdjEg9wtD7MELio+0J5tukeRxQVudzvflw5iaKtc4AzKLQbata0td8AIDZA==", "commit"=>"Check1"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:20:36 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M5eXBa5evCIVV81GFRmRwKonrDZHdjEg9wtD7MELio+0J5tukeRxQVudzvflw5iaKtc4AzKLQbata0td8AIDZA==", "commit"=>"Check1"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:20:41 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 43ms (Views: 40.6ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:20:41 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 32ms (Views: 29.9ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:20:43 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YREK+SGEIVscU0dtrxVWg+RSCxYLkW6lQgjH01cyT12sYQ32+eWJepsOXbH7oKefc2BBtHpag5a9rREgDQ3LYg==", "commit"=>"Check"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:20:46 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ASAi83zxYukfovJ7Ua57in8hY3BAUYEH/ib8dAbm3XOGkC6YQ0uvilFo8cqhdHLQ/9H3RTWs8ZGkRvTFN+9UmA==", "check1"=>"1", "commit"=>"Check"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:22:02 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 38.6ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:22:44 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OaIgZIppUKxSzlh+hp1SiMBEkwpDkMt3hppohookiTj00idrUgj4jdWTQqLSKKOUV3bZqDJbJkR5P7510BsNBw==", "commit"=>"Check"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:22:48 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Edh98NTf8LPI+3EmBbaagznNwyeBtuWdyvYzPR/LBbWWaHGb62U90IYxcpf1bJPZuT1XEvRLlQuQljuMLsKMXg==", "check1"=>"1", "commit"=>"Check"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:25:35 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 32.1ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:25:38 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oIqElmxs4+mGYUgundhndCeK0dXM8aKB3jXxRCoLRTJt+oOZtA1LyAE8UvLJbZZosLibd706T7IhkCe3cDTBDQ==", "check1"=>"1", "commit"=>"Check"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:26:13 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NSDoAcELmnXDVpnr/Slrf3983/49wsTQZ+3/2ar0PZmykORq/rFXFo2cmloN82Il/4xLy0g/tEY9jfdom/20cg==", "check1"=>"1", "commit"=>"Check"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:26:19 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oIqElmxs4+mGYUgundhndCeK0dXM8aKB3jXxRCoLRTJt+oOZtA1LyAE8UvLJbZZosLibd706T7IhkCe3cDTBDQ==", "check1"=>"1", "commit"=>"Check"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:26:29 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NSDoAcELmnXDVpnr/Slrf3983/49wsTQZ+3/2ar0PZmykORq/rFXFo2cmloN82Il/4xLy0g/tEY9jfdom/20cg==", "check1"=>"1", "commit"=>"Check"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:29:53 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33ms (Views: 30.8ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:29:55 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a1frX7LWceTZUM8ioh3luHRtt30qTc0LuvnVJTx2qDTs5+c0jWy8h5eazJNSx+zi9J0jSF+wvZ3gmd2UDX8h3w==", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/__web_console/repl_sessions/7cd7188988cdaa022619c91d37ae80f4/trace" for 127.0.0.1 at 2017-08-23 15:30:41 +0900
+Started PUT "/__web_console/repl_sessions/7cd7188988cdaa022619c91d37ae80f4" for 127.0.0.1 at 2017-08-23 15:30:47 +0900
+Started PUT "/__web_console/repl_sessions/7cd7188988cdaa022619c91d37ae80f4" for 127.0.0.1 at 2017-08-23 15:30:49 +0900
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:31:29 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 51ms (Views: 44.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:31:30 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fh9/ip1XipqpF3cr8S/Sg061q3qnb9QnUqF5RWmdgOXbb3iFRTYiuy5KbfelmiOf2Yfh2NakORStBK+2M6IE2g==", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:31:40 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a1frX7LWceTZUM8ioh3luHRtt30qTc0LuvnVJTx2qDTs5+c0jWy8h5eazJNSx+zi9J0jSF+wvZ3gmd2UDX8h3w==", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:32:33 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 59ms (Views: 55.4ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:32:34 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b2SmKQnrpd0t7LkOlB+t0fbv2o6iXDWfcowpDzUTSnKiFKEm0YoN/Kqxo9LAqlzNYd2QLNOX2KyNKf/8byzOTQ==", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:33:49 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 30.4ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:33:50 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TJvpPaqHQcnFf+ndcbXBz2hz5Tg/w/6Ffe/hcdvvAUsQmirLsu1JqBI5XshcyYbqpOFNpE04snqUml2nVA4Og==", "check1"=>"1", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:35:01 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 37.1ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:35:01 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GbvdYxmo9aKNEqCvQc8g9u4DwmGInLT6QrBmg30qjx7Uy9pswcldgwpPunMVetHqeTGIw/lXWcm9FbBwJxULIQ==", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:35:22 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5mAEM+WXAZ5Q9HSoxBimJx58pJE27cUAvAWvfYFPJFZh0AhY2i3M/R4+dxk0wq99nowwpEMQtZbmZafMsEatvQ==", "check1"=>"1", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:35:47 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GbvdYxmo9aKNEqCvQc8g9u4DwmGInLT6QrBmg30qjx7Uy9pswcldgwpPunMVetHqeTGIw/lXWcm9FbBwJxULIQ==", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:36:23 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5mAEM+WXAZ5Q9HSoxBimJx58pJE27cUAvAWvfYFPJFZh0AhY2i3M/R4+dxk0wq99nowwpEMQtZbmZafMsEatvQ==", "check1"=>"1", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:36:42 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GbvdYxmo9aKNEqCvQc8g9u4DwmGInLT6QrBmg30qjx7Uy9pswcldgwpPunMVetHqeTGIw/lXWcm9FbBwJxULIQ==", "check1"=>"1", "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/helo_controller.rb:6:in `+'
+app/controllers/helo_controller.rb:6:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 15:37:00 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 382ms (Views: 180.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:37:04 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ze299whRFm+AuJJZq87AzSA1u0kTjnWxFLlLOQ/QIS/iXbGcN+vbDM5ykehbFMmXoMUvfGZzBSdO2UOIPtmoxA==", "check1"=>"1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 38ms (Views: 35.7ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:37:05 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RoPxa85mgNduOzwlfvQPC4WL2bxPaN/HL5uUilkbE+/BM/0A8dxNtCDxP5SOLgZRBXtNiTqVr1F1+5w7aBKaBA==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 48.1ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:37:06 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X5JJ7HG8bUBo7RnT5nDyK5Kn8NoaTWfEXmieXPGV/bTYIkWHTgagIyYnGmIWqvtxEldk72+wF1IECJbtwJx0Xw==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 31.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:37:06 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y6yPpY6UqISLNH3+2e+PCnpfGjLoH8ERnWwLg7EHkJ/kHIPOsS5l58X+fk8pNYZQ+q+OB53isYfHDAMygA4ZdA==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 46.8ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:49:40 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Y6yPpY6UqISLNH3+2e+PCnpfGjLoH8ERnWwLg7EHkJ/kHIPOsS5l58X+fk8pNYZQ+q+OB53isYfHDAMygA4ZdA==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 330ms (Views: 183.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:49:43 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T6D96VyyrHOnLdefSOPxFvewixK/3jtfStPcdgbeBVTIEPGCYwhhEOnn1C64OfhMd0AfJ8ojS8kQs9THN9eMvw==", "r1"=>"radio 1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 30.4ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:50:46 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T6D96VyyrHOnLdefSOPxFvewixK/3jtfStPcdgbeBVTIEPGCYwhhEOnn1C64OfhMd0AfJ8ojS8kQs9THN9eMvw==", "r1"=>"radio 1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 367ms (Views: 218.2ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:50:48 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0YT/Ex/1zs7wtuHlzwMbk27QE2OACFSy+z18Z0H+ZHRWNPN4IE8Drb584lQ/2RLJ7iCHVvX1JCShXXTWcPftnw==", "r1"=>"radio 2", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 60ms (Views: 57.9ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:50:50 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b2QYVlBp1a75Awz4FuXhSXwe7WjnQC8hB8pi644U6tbo1BQ9b9MYzbfJD0nmP+gT/O55XZK9X7ddqmpavx1jPQ==", "r1"=>"radio 1", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 30.7ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 15:50:51 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W/4tVzGF3sgstXNpiUC+TC+IFoiHHExYy5MvtfzeQ9/cTiE8Dj8Tq2J/cNh5mrcWr3iCvfLhPM6R8ycEzdfKNA==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 34.1ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:20:29 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W/4tVzGF3sgstXNpiUC+TC+IFoiHHExYy5MvtfzeQ9/cTiE8Dj8Tq2J/cNh5mrcWr3iCvfLhPM6R8ycEzdfKNA==", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 426ms (Views: 217.3ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:20:32 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9B4Wg9u+Our4BcveENC1xTNjlRLQLXzGHLfwpl4cDgJzrhro5AT3ibbPyG/gCryfs5MBJ6XQDFBG1/gXbxWH6Q==", "s1"=>"macOS", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 49ms (Views: 46.8ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:20:33 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PdvO4rGQTxDKaoDWHsuK0m8Eb28B0AFgtH8MF1Ps5WS6a8KJjiqCc4Sgg2fuEYOI7/T7WnQtcfbuHwSmYuVsjw==", "s1"=>"Windows", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 30.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:20:36 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YYYIWY/yC9Frw/lwWANx5svSnmTs8d8GimtvOHUxdSPmNgQysEjGsiUJ+sGo2Xi8SyIKUZkMr5DQC2eJRDj8yA==", "s1"=>"Linux", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 42.1ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:20:58 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YYYIWY/yC9Frw/lwWANx5svSnmTs8d8GimtvOHUxdSPmNgQysEjGsiUJ+sGo2Xi8SyIKUZkMr5DQC2eJRDj8yA==", "s1"=>"Linux", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 344ms (Views: 195.9ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:21:01 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"331rRwpDELTjkqDJXHbo0/ksn5loWnT7yTKwRmcCsjlYzWcsNfnd161Yo3isrOGJedwLrB2nBG2TUrj3Vgs70g==", "s1"=>"macOS", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 46.7ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:21:03 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OKq8OadNYQGuKDal8XSsdHy3NVYNrGzxULpHVDpD0wK/GrBSmPesYuDiNRQBrqUu/EehY3hRHGcK2k/lC0pa6Q==", "s1"=>"Linux", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:21:05 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RWT7cN+dsMLdPbKSd5IL+4LA3BrkNrY3LShcfKzhjqbC1Pcb4Cd9oZP3sSOHSAKhAjBIL5HLxqF3SFTNnegHTQ==", "s1"=>"Windows", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 46.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:26:49 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RWT7cN+dsMLdPbKSd5IL+4LA3BrkNrY3LShcfKzhjqbC1Pcb4Cd9oZP3sSOHSAKhAjBIL5HLxqF3SFTNnegHTQ==", "s1"=>"Windows", "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 324ms (Views: 161.2ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:26:54 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOai3N4OTH2ITxbNT0Xw2LfYtZiBDo1OExqh9tOzltAbVq634bSBHsaFFXy/n/mCNyghrfTz/dhJeqlH4rofOw==", "s1"=>["Windows", "Linux"], "commit"=>"Click"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of Array into String):
+  
+app/controllers/helo_controller.rb:7:in `+'
+app/controllers/helo_controller.rb:7:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 16:26:58 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 45ms (Views: 40.3ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:27:56 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RWT7cN+dsMLdPbKSd5IL+4LA3BrkNrY3LShcfKzhjqbC1Pcb4Cd9oZP3sSOHSAKhAjBIL5HLxqF3SFTNnegHTQ==", "s1"=>"Windows", "commit"=>"Click"}
+Completed 500 Internal Server Error in 152ms
+
+
+  
+NoMethodError (undefined method `each' for "Windows":String):
+  
+app/controllers/helo_controller.rb:8:in `index'
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-23 16:28:00 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 209ms (Views: 202.5ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:28:02 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"21n6/KtEoRYkXQkCtFc6EMxqbTtZ30YOscKfRQ7LPvkWKf3zcyUJN6MAE97g4ssMW1gnmSgUqz1OZ0m2VPS6xg==", "s1"=>["Linux"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 26.9ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:28:05 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0cDAEG6JYY9HPDJNx9pINr3heSY27FBT44J8beFnsvpWcMx7UTOs7An2Mfw3AEFsPRHtE0MRIMW54nTc0G47EQ==", "s1"=>["Windows", "Linux"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 48.6ms)
+
+
+Started POST "/helo/index" for 127.0.0.1 at 2017-08-23 16:28:08 +0900
+Processing by HeloController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UgvtY1VJ8jOgDc+btoXGqdl2iZxu4R779UmyMr6aO5jVu+EIavM/UO7HzCpGX8/zWYYdqRscbm2vKbqDj5Oycw==", "s1"=>["Windows", "macOS", "Linux"], "commit"=>"Click"}
+  Rendering helo/index.html.erb within layouts/application
+  Rendered helo/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 35ms (Views: 31.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 13:09:34 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 213ms (Views: 9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 13:09:36 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 7ms (Views: 5.0ms)
+
+
+Started GET "/helo/index" for 127.0.0.1 at 2017-08-24 13:09:37 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.4ms)
+Completed 500 Internal Server Error in 179ms
+
+
+  
+ActionView::Template::Error (The asset "appliction.js" is not present in the asset pipeline.):
+    4:     <title><%= @title %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'appliction', 'data-turbolonks-track': 'reload' %>
+    8: </head>
+    9: 
+   10: <body>
+  
+app/views/layouts/helo.html.erb:7:in `_app_views_layouts_helo_html_erb___772163915808038862_70198254487060'
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:09:40 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.4ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (The asset "appliction.js" is not present in the asset pipeline.):
+    4:     <title><%= @title %></title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'appliction', 'data-turbolonks-track': 'reload' %>
+    8: </head>
+    9: 
+   10: <body>
+  
+app/views/layouts/helo.html.erb:7:in `_app_views_layouts_helo_html_erb___772163915808038862_70198246306720'
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:10:09 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.9ms)
+  Rendering layouts/helo_header.html.erb
+  Rendered layouts/helo_header.html.erb (0.5ms)
+  Rendering layouts/helo_footer.html.erb
+  Rendered layouts/helo_footer.html.erb (0.5ms)
+Completed 200 OK in 346ms (Views: 200.8ms)
+
+
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:28:43 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.5ms)
+  Rendering layouts/helo_header.html.erb
+  Rendered layouts/helo_header.html.erb (0.3ms)
+  Rendering layouts/helo_footer.html.erb
+  Rendered layouts/helo_footer.html.erb (0.4ms)
+Completed 200 OK in 32ms (Views: 29.1ms)
+
+
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:28:52 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.8ms)
+  Rendering layouts/helo_header.html.erb
+  Rendered layouts/helo_header.html.erb (0.6ms)
+  Rendering layouts/helo_footer.html.erb
+  Rendered layouts/helo_footer.html.erb (0.5ms)
+Completed 200 OK in 354ms (Views: 189.7ms)
+
+
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:28:54 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.4ms)
+  Rendering layouts/helo_header.html.erb
+  Rendered layouts/helo_header.html.erb (0.7ms)
+  Rendering layouts/helo_footer.html.erb
+  Rendered layouts/helo_footer.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 39.2ms)
+
+
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:28:59 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.4ms)
+  Rendering layouts/helo_header.html.erb
+  Rendered layouts/helo_header.html.erb (0.4ms)
+  Rendering layouts/helo_footer.html.erb
+  Rendered layouts/helo_footer.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 32.0ms)
+
+
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:29:15 +0900
+Processing by HeloController#index as HTML
+Completed 500 Internal Server Error in 171ms
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/helo0 with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views"
+):
+  
+actionview (5.1.2) lib/action_view/path_set.rb:46:in `find'
+actionview (5.1.2) lib/action_view/lookup_context.rb:116:in `find'
+actionview (5.1.2) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:87:in `resolve_layout'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:94:in `resolve_layout'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:74:in `find_layout'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:58:in `render_with_layout'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:50:in `render_template'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:14:in `render'
+actionview (5.1.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+actionview (5.1.2) lib/action_view/renderer/renderer.rb:23:in `render'
+actionview (5.1.2) lib/action_view/rendering.rb:103:in `_render_template'
+actionpack (5.1.2) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+actionview (5.1.2) lib/action_view/rendering.rb:83:in `render_to_body'
+actionpack (5.1.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (5.1.2) lib/action_controller/metal/renderers.rb:141:in `render_to_body'
+actionpack (5.1.2) lib/abstract_controller/rendering.rb:24:in `render'
+actionpack (5.1.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+activesupport (5.1.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/usr/local/Cellar/ruby/2.4.1_1/lib/ruby/2.4.0/benchmark.rb:308:in `realtime'
+activesupport (5.1.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+activerecord (5.1.2) lib/active_record/railties/controller_runtime.rb:34:in `cleanup_view_runtime'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:43:in `render'
+actionpack (5.1.2) lib/action_controller/metal/implicit_render.rb:33:in `default_render'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.2) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.2) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.2) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.2) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:29:38 +0900
+Processing by HeloController#index as HTML
+Completed 500 Internal Server Error in 27ms
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/helo0 with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views"
+):
+  
+actionview (5.1.2) lib/action_view/path_set.rb:46:in `find'
+actionview (5.1.2) lib/action_view/lookup_context.rb:116:in `find'
+actionview (5.1.2) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:87:in `resolve_layout'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:94:in `resolve_layout'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:74:in `find_layout'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:58:in `render_with_layout'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:50:in `render_template'
+actionview (5.1.2) lib/action_view/renderer/template_renderer.rb:14:in `render'
+actionview (5.1.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+actionview (5.1.2) lib/action_view/renderer/renderer.rb:23:in `render'
+actionview (5.1.2) lib/action_view/rendering.rb:103:in `_render_template'
+actionpack (5.1.2) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+actionview (5.1.2) lib/action_view/rendering.rb:83:in `render_to_body'
+actionpack (5.1.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (5.1.2) lib/action_controller/metal/renderers.rb:141:in `render_to_body'
+actionpack (5.1.2) lib/abstract_controller/rendering.rb:24:in `render'
+actionpack (5.1.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+activesupport (5.1.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/usr/local/Cellar/ruby/2.4.1_1/lib/ruby/2.4.0/benchmark.rb:308:in `realtime'
+activesupport (5.1.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+activerecord (5.1.2) lib/active_record/railties/controller_runtime.rb:34:in `cleanup_view_runtime'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:43:in `render'
+actionpack (5.1.2) lib/action_controller/metal/implicit_render.rb:33:in `default_render'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.2) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.2) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.2) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.2) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.2) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.2) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.2) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.2) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.2) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.2) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.2) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.2) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.2) lib/action_dispatch/routing/route_set.rb:832:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.2) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.2) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.2) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.2) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.2) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/helo/" for 127.0.0.1 at 2017-08-24 13:29:46 +0900
+Processing by HeloController#index as HTML
+  Rendering helo/index.html.erb within layouts/helo
+  Rendered helo/index.html.erb within layouts/helo (0.9ms)
+  Rendering layouts/helo_header.html.erb
+  Rendered layouts/helo_header.html.erb (0.5ms)
+  Rendering layouts/helo_footer.html.erb
+  Rendered layouts/helo_footer.html.erb (0.4ms)
+Completed 200 OK in 348ms (Views: 178.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:51:10 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 183ms (Views: 8.4ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 14:51:13 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.8ms)
+Completed 200 OK in 342ms (Views: 338.7ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 14:53:13 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (2.4ms)
+Completed 200 OK in 377ms (Views: 212.7ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 14:56:17 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.1ms)
+Completed 200 OK in 52ms (Views: 49.2ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 14:56:25 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (2.3ms)
+Completed 200 OK in 373ms (Views: 212.7ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 15:01:56 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.5ms)
+Completed 200 OK in 53ms (Views: 49.9ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 15:02:42 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.2ms)
+Completed 200 OK in 47ms (Views: 44.9ms)
+
+
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:05:19 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"doDa4qQYF0g4xgoXTdIFlxQIw7oLXE2infZpbj4k6uFxBhY45RVPSIzLCDi+zpSEXu8DKlmfkfC2Lz59D/LDbw==", "name"=>"ユーザA", "msg"=>"メッセージ投稿テスト", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.5ms)
+Completed 200 OK in 50ms (Views: 46.2ms)
+
+
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:06:03 +0900
+  
+NameError (undefined local variable or method `ley' for #<DengonbanController:0x007fd940888800>
+Did you mean?  key):
+  
+app/controllers/dengonban_controller.rb:12:in `block in initialize'
+app/controllers/dengonban_controller.rb:11:in `each'
+app/controllers/dengonban_controller.rb:11:in `initialize'
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:06:33 +0900
+  
+NameError (undefined local variable or method `ley' for #<DengonbanController:0x007fd93f961b60>
+Did you mean?  key):
+  
+app/controllers/dengonban_controller.rb:12:in `block in initialize'
+app/controllers/dengonban_controller.rb:11:in `each'
+app/controllers/dengonban_controller.rb:11:in `initialize'
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:06:38 +0900
+  
+NameError (undefined local variable or method `ley' for #<DengonbanController:0x007fd93d622640>
+Did you mean?  key):
+  
+app/controllers/dengonban_controller.rb:12:in `block in initialize'
+app/controllers/dengonban_controller.rb:11:in `each'
+app/controllers/dengonban_controller.rb:11:in `initialize'
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:06:56 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (2.6ms)
+Completed 200 OK in 406ms (Views: 195.6ms)
+
+
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:07:16 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2J0iqFv2TT1/stEsoHr0OOaukYfC/c9SAKuACI8byoffG+5yGvsVPcu/0wNTZmUrrElRF5A+EwArctcbvs3jCQ==", "name"=>"ユーザB", "msg"=>"ただのカカシですな", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.2ms)
+Completed 200 OK in 35ms (Views: 31.5ms)
+
+
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:07:42 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2J0iqFv2TT1/stEsoHr0OOaukYfC/c9SAKuACI8byoffG+5yGvsVPcu/0wNTZmUrrElRF5A+EwArctcbvs3jCQ==", "name"=>"ユーザB", "msg"=>"ただのカカシですな", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.9ms)
+Completed 200 OK in 61ms (Views: 57.7ms)
+
+
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:07:45 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2J0iqFv2TT1/stEsoHr0OOaukYfC/c9SAKuACI8byoffG+5yGvsVPcu/0wNTZmUrrElRF5A+EwArctcbvs3jCQ==", "name"=>"ユーザB", "msg"=>"ただのカカシですな", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (3.1ms)
+Completed 200 OK in 83ms (Views: 80.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:08:01 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 10ms (Views: 7.7ms)
+
+
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:08:07 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.2ms)
+Completed 200 OK in 31ms (Views: 28.4ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 15:08:08 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.3ms)
+Completed 200 OK in 31ms (Views: 28.8ms)
+
+
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:08:09 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.2ms)
+Completed 200 OK in 42ms (Views: 39.2ms)
+
+
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:08:27 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"al71hHBVPDmbKVWS4vUl5nAMaewwPI+EJXvAajqTir5t2DleMVhkOS8kV70R6bT1OuupfGL/U9YOopd5C0WjMA==", "name"=>"ユーザA", "mail"=>"userA@testmail.com", "msg"=>"テストメッセージ", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.9ms)
+Completed 200 OK in 39ms (Views: 35.6ms)
+
+
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:12:47 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.5ms)
+Completed 200 OK in 38ms (Views: 34.8ms)
+
+
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:19:34 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.6ms)
+Completed 200 OK in 41ms (Views: 38.5ms)
+
+
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:20:14 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (0.8ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/dengonban/index.html.erb:41: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/dengonban/index.html.erb:41: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:20:29 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.8ms)
+Completed 500 Internal Server Error in 229ms
+
+
+  
+SyntaxError (/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/dengonban/index.html.erb:41: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/dengonban/index.html.erb:41: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:20:46 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 10ms (Views: 6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:20:47 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 7ms (Views: 5.3ms)
+
+
+Started GET "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:20:51 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.4ms)
+Completed 200 OK in 249ms (Views: 246.4ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 15:20:52 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.2ms)
+Completed 200 OK in 33ms (Views: 30.4ms)
+
+
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 15:21:17 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (0.8ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/Matrix5411/Desktop/自分用ふぉるだ/17_プログラミング関係/Rails/RailsApp/app/views/dengonban/index.html.erb:43: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/dengonban/index.html.erb:43: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/dengonban" for 127.0.0.1 at 2017-08-24 15:21:24 +0900
+Processing by DengonbanController#index as HTML
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.1ms)
+Completed 200 OK in 30ms (Views: 27.3ms)
+
+
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:21:42 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4BC2Haawu9UI20OZvwknmCA9/5y8NQhCpCoL6Y2mpCrnlnrH573j1bzWQbZMFbaLato/DO721BCP81z6vHCNpA==", "name"=>"ユーザA", "mail"=>"userA@testmail.com", "msg"=>"テストメッセージ", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.1ms)
+Completed 200 OK in 35ms (Views: 32.1ms)
+
+
+Started POST "/dengonban/index" for 127.0.0.1 at 2017-08-24 15:22:35 +0900
+Processing by DengonbanController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z5Gol9RLLq59RTiybcu+DY3+Ospvd+emMtfAXFhl6tNgF2RNlUZ2rslIOp2e1y8exxn6Wj20O/QZDpdPabPDXQ==", "name"=>"ユーザB", "mail"=>"userB@testmail.com", "msg"=>"ただのカカシですな。", "commit"=>"Click"}
+  Rendering dengonban/index.html.erb within layouts/dengonban
+  Rendered dengonban/index.html.erb within layouts/dengonban (1.1ms)
+Completed 200 OK in 42ms (Views: 38.2ms)
+
+

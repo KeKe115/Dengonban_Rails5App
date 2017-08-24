@@ -1,0 +1,1 @@
+{"1503555702":{"name":"ユーザA","mail":"userA@testmail.com","msg":"テストメッセージ"},"1503555755":{"name":"ユーザB","mail":"userB@testmail.com","msg":"ただのカカシですな。"}}
